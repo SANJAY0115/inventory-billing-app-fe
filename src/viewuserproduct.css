@@ -1,0 +1,278 @@
+.loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #FF4066, #FFF16A);
+}
+
+.box {
+    background-image: linear-gradient(to right, #FF4066, #FFF16A);
+    padding-bottom: 48px;
+    height: 100vh;
+}
+
+.viewproduct {
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.viewproduct .viewimgbtn {
+    padding: 20px 0px;
+}
+
+.viewproduct .viewimgbtn img {
+    border: 1px solid black;
+    width: 360px;
+    height: 380px;
+    display: block !important;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.viewproduct .viewheadpara {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px 50px;
+}
+
+.pqd .viewheadpara p {
+    width: fit-content;
+    height: 98px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+.pqd .viewheadpara p::-webkit-scrollbar {
+    display: none;
+}
+
+.pqd .viewheadpara p {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.pqd .viewheadpara p:hover {
+    cursor: grab;
+}
+
+.pqd .viewheadpara h3 {
+    color: rgb(230, 114, 37);
+    font-weight: bold;
+    text-align: center;
+}
+
+.pqd .pricequantity {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px 100px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.pqd .pricequantity h4 {
+    color: rgb(230, 114, 37);
+    font-weight: bold;
+}
+
+.pqd .pricequantity h6 {
+
+    font-weight: bold;
+}
+
+.pqd .pricequantity .selectqty {
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px !important;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.reviewbtn {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewproduct .viewbutton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.viewproduct .viewbutton .inputbtn {
+    padding: 7px 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+
+.viewproduct .viewbutton .inputbtn:hover {
+    /* border:2px solid black;
+    color:black; */
+    border: none;
+    background-image: linear-gradient(to right, #6b82ec9f, #8c42ee);
+}
+
+
+
+.celebratedisabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.celebratediv {
+    background-color: #69d620;
+    width: 30%;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    z-index: 150px !important;
+    margin-top: -350px;
+}
+.popuploading{
+    background-color: #69d620;
+    width: 30%;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    z-index: 150px !important;
+    margin-top: -350px;
+}
+.viewproduct .viewback {
+    color: rgb(221, 47, 47);
+}
+
+.viewproduct .viewback:hover {
+    color: rgb(172, 54, 219) !important;
+    cursor: pointer;
+}
+
+.viewproduct .viewname {
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.viewproduct .viewback {
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.confetti {
+    width: 100%;
+ 
+}
+
+
+@media screen and (min-width:300px) and (max-width:991px) {
+    .viewproduct .viewname {
+        text-align: center !important;
+        padding-top: 20px;
+        margin-bottom: 0px !important;
+    }
+
+    .viewproduct .viewback {
+        text-align: center !important;
+        padding-top: 0px;
+        margin-bottom: 0px !important;
+    }
+
+    .viewproduct .viewbutton .inputbtn {
+        margin-bottom: 20px !important;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pqd .pricequantity {
+        width: 300px;
+
+    }
+
+    .pqd .pricequantity h4 {
+        font-size: 16px;
+    }
+
+    .pqd .pricequantity h6 {
+        font-size: 15px;
+    }
+
+    .pqd .pricequantity .selectqty {
+        width: 80%;
+    }
+
+    .pqd .viewheadpara h3 {
+        font-size: 18px;
+    }
+  
+
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .viewproduct .viewimgbtn img {
+        width: 300px;
+        height: 180px;
+    }
+
+    .viewproduct .viewheadpara {
+        width: 300px;
+        height: 180px;
+    }
+
+    .celebratediv {
+
+        width: 80%;
+        font-size: 16px;
+        padding: 15px;
+        position: relative;
+        z-index: 150px !important;
+        margin-top: -500px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:850px){
+    .celebratediv {
+
+        width: 60%;
+        font-size: 16px;
+        padding: 15px;
+        position: relative;
+        z-index: 150px !important;
+        margin-top: -500px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:350px) {
+    .viewproduct {
+        padding: 0px 30px;
+    }
+
+    .viewproduct .viewbutton .inputbtn {
+        padding: 8px 10px;
+        font-size: 17px !important;
+    }
+}
+
+/* @media screen and (min-height:800px) and (max-height:900px){
+    .box {
+       
+        min-height: 100vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+} */

@@ -1,0 +1,131 @@
+.pageul {
+    padding: 6px;
+    background-color: black;
+    border-radius: 50px;
+ 
+ }
+ 
+ .pageul .pagelink {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none !important;
+    overflow: hidden;
+ }
+ 
+ .pageul .pagelink:link {
+    color: white;
+ }
+ 
+ .pageul .pagelink:visited {
+    color: white;
+ }
+ 
+ .pageul .pagelink:hover {
+    color: black;
+    background-color: greenyellow;
+    border-radius: 50px;
+ }
+ 
+ .paginationdiv {
+ 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    overflow: hidden;
+ 
+ }
+ 
+ .popuptext {
+    border-radius: 8px;
+    border: none !important;
+    height: 40px;
+    margin: 15px 0px;
+ 
+ }
+ 
+ .popuptext:focus {
+    outline: none;
+ }
+ 
+ .popupbtn {
+    margin: 5px 5px !important;
+    font-size: 13px !important;
+    width: fit-content;
+ }
+ 
+ .userdisablepage {
+    pointer-events: none;
+    opacity: 0.5;
+ }
+ 
+ .popup {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 50px !important;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 10px 30px;
+    text-align: center !important;
+   
+ }
+ 
+ textarea::placeholder {
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    text-align: center;
+ }
+ .popuph5 {
+    font-size: 15px !important;
+ }
+ 
+ @media only screen and (min-width:300px) and (max-width:600px) {
+    .popuptext {
+       width: 80% !important;
+       
+    }
+ 
+    .popup {
+       width: 80% !important;
+       padding: 10px;
+       top:260px
+    }
+ 
+    .popuph5 {
+       font-size: 13px !important;
+    }
+ 
+    .popupbtn {
+       margin: 5px 5px !important;
+       font-size: 10px !important;
+       width:fit-content;
+    }
+    .rings1{
+       width:300% !important;
+   }
+ }
+ 
+ @media screen and (min-width:300px) and (max-width:700px) {
+ 
+    .tableitem {
+       margin: 0px 15px !important;
+    }
+ 
+    .tableitem .table thead tr th {
+       border-collapse: collapse;
+       font-size: 14px !important;
+    }
+ 
+    .tableitem .table tbody tr td {
+       border-collapse: collapse;
+       font-size: 13px !important;
+    }
+ }
+ 
